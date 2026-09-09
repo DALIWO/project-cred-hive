@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Contact — CredHive</title>
+
+  <meta
+    name="description"
+    content="Tell CredHive about your project, business problem, or digital idea and let's build something that works."
+  >
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- =========================================
+       NAVIGATION
+  ========================================== -->
+
+  <header class="navbar">
+
+    <div class="nav-group nav-left">
+      <a href="index.html">Home</a>
+      <a href="work.html">Work</a>
+      <a href="services.html">Services</a>
+    </div>
+
+    <a href="index.html" class="logo">
+      CredHive
+    </a>
+
+    <div class="nav-group nav-right">
+      <a href="about.html">About</a>
+      <a href="process.html">Process</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <button
+      class="menu"
+      id="menu"
+      aria-label="Open menu"
+      aria-expanded="false"
+    >
+      ☰
+    </button>
+
+  </header>
+
+
+  <!-- =========================================
+       MOBILE MENU
+  ========================================== -->
+
+  <nav class="mobile-menu" id="navLinks">
+
+    <div class="mobile-menu-inner">
+
+      <div class="mobile-label">
+        Navigation
+      </div>
+
+      <a href="index.html">
+        Home
+        <span>↗</span>
+      </a>
+
+      <a href="work.html">
+        Work
+        <span>↗</span>
+      </a>
+
+      <a href="services.html">
+        Services
+        <span>↗</span>
+      </a>
+
+      <a href="about.html">
+        About
+        <span>↗</span>
+      </a>
+
+      <a href="process.html">
+        Process
+        <span>↗</span>
+      </a>
+
+      <a href="contact.html">
+        Contact
+        <span>↗</span>
+      </a>
+
+    </div>
+
+  </nav>
+
+
+  <!-- =========================================
+       CONTACT HERO
+  ========================================== -->
+
+  <main>
+
+    <section class="contact-hero">
+
+      <div class="contact-eyebrow">
+        06 — Contact
+      </div>
+
+      <h1 class="contact-title">
+        Let's build<br>
+        something<br>
+        that works.
+      </h1>
+
+      <div class="contact-hero-bottom">
+
+        <p>
+          Have a project in mind, a business problem to solve,
+          or simply an idea you're ready to explore?
+        </p>
+
+        <a href="#project-form" class="contact-scroll">
+          Start a Project
+          <span>↓</span>
+        </a>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================
+         INTRO
+    ========================================== -->
+
+    <section class="contact-intro">
+
+      <div class="contact-section-number">
+        01
+      </div>
+
+      <div class="contact-intro-content">
+
+        <h2>
+          Let's start<br>
+          the conversation.
+        </h2>
+
+        <p>
+          Tell us a little about what you're working on.
+          We'll review your requirements, understand what
+          you're trying to achieve, and get back to you
+          with the next steps.
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================
+         PROJECT FORM
+    ========================================== -->
+
+    <section class="contact-form-section" id="project-form">
+
+      <div class="contact-section-heading">
+
+        <div class="contact-section-number">
+          02
+        </div>
+
+        <div>
+          <div class="contact-label">
+            Start a Project
+          </div>
+
+          <h2>
+            Tell us about<br>
+            your project.
+          </h2>
+
+          <p>
+            The more we understand about what you're trying
+            to achieve, the better we can understand how to help.
+          </p>
+        </div>
+
+      </div>
+
+
+      <form
+        class="contact-form"
+        id="contactForm"
+        action="#"
+        method="POST"
+      >
+
+        <!-- DETAILS -->
+
+        <div class="form-block">
+
+          <div class="form-block-heading">
+            <span>01</span>
+            Your details
+          </div>
+
+          <div class="form-grid">
+
+            <div class="form-field">
+              <label for="name">
+                Name
+              </label>
+
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your name"
+                autocomplete="name"
+                required
+              >
+            </div>
+
+            <div class="form-field">
+              <label for="email">
+                Email
+              </label>
+
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Your email"
+                autocomplete="email"
+                required
+              >
+            </div>
+
+            <div class="form-field">
+              <label for="business">
+                Business / Company
+              </label>
+
+              <input
+                type="text"
+                id="business"
+                name="business"
+                placeholder="Business name"
+                autocomplete="organization"
+              >
+            </div>
+
+            <div class="form-field">
+              <label for="phone">
+                Phone number
+              </label>
+
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="Optional"
+                autocomplete="tel"
+              >
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- SERVICES -->
+
+        <div class="form-block">
+
+          <div class="form-block-heading">
+            <span>02</span>
+            What do you need?
+          </div>
+
+          <p class="form-helper">
+            I'm interested in:
+          </p>
+
+          <div class="service-options">
+
+            <label class="check-option">
+              <input
+                type="checkbox"
+                name="services[]"
+                value="Web Development"
+              >
+              <span class="custom-check"></span>
+              <span>Web Development</span>
+            </label>
+
+            <label class="check-option">
+              <input
+                type="checkbox"
+                name="services[]"
+                value="UI/UX & Web Design"
+              >
+              <span class="custom-check"></span>
+              <span>UI/UX & Web Design</span>
+            </label>
+
+            <label class="check-option">
+              <input
+                type="checkbox"
+                name="services[]"
+                value="SEO"
+              >
+              <span class="custom-check"></span>
+              <span>SEO</span>
+            </label>
+
+            <label class="check-option">
+              <input
+                type="checkbox"
+                name="services[]"
+                value="Custom Management System"
+              >
+              <span class="custom-check"></span>
+              <span>Custom Management System</span>
+            </label>
+
+            <label class="check-option">
+              <input
+                type="checkbox"
+                name="services[]"
+                value="E-commerce"
+              >
+              <span class="custom-check"></span>
+              <span>E-commerce</span>
+            </label>
+
+            <label class="check-option">
+              <input
+                type="checkbox"
+                name="services[]"
+                value="Something else"
+              >
+              <span class="custom-check"></span>
+              <span>Something else</span>
+            </label>
+
+          </div>
+
+        </div>
+
+
+        <!-- PROJECT DESCRIPTION -->
+
+        <div class="form-block">
+
+          <div class="form-block-heading">
+            <span>03</span>
+            Tell us about the project
+          </div>
+
+          <p class="form-helper">
+            What are you looking to build or improve?
+          </p>
+
+          <div class="form-field textarea-field">
+
+            <textarea
+              id="message"
+              name="message"
+              rows="7"
+              placeholder="Tell us about your project, your goals, or the problem you're trying to solve..."
+              required
+            ></textarea>
+
+          </div>
+
+        </div>
+
+
+        <!-- BUDGET -->
+
+        <div class="form-block">
+
+          <div class="form-block-heading">
+            <span>04</span>
+            Project budget
+          </div>
+
+          <p class="form-helper">
+            What's your estimated budget?
+          </p>
+
+          <div class="radio-options">
+
+            <label class="radio-option">
+              <input
+                type="radio"
+                name="budget"
+                value="Under R5,000"
+              >
+              <span class="custom-radio"></span>
+              <span>Under R5,000</span>
+            </label>
+
+            <label class="radio-option">
+              <input
+                type="radio"
+                name="budget"
+                value="R5,000 – R10,000"
+              >
+              <span class="custom-radio"></span>
+              <span>R5,000 – R10,000</span>
+            </label>
+
+            <label class="radio-option">
+              <input
+                type="radio"
+                name="budget"
+                value="R10,000 – R20,000"
+              >
+              <span class="custom-radio"></span>
+              <span>R10,000 – R20,000</span>
+            </label>
+
+            <label class="radio-option">
+              <input
+                type="radio"
+                name="budget"
+                value="R20,000 – R50,000"
+              >
+              <span class="custom-radio"></span>
+              <span>R20,000 – R50,000</span>
+            </label>
+
+            <label class="radio-option">
+              <input
+                type="radio"
+                name="budget"
+                value="R50,000+"
+              >
+              <span class="custom-radio"></span>
+              <span>R50,000+</span>
+            </label>
+
+            <label class="radio-option">
+              <input
+                type="radio"
+                name="budget"
+                value="Not sure"
+              >
+              <span class="custom-radio"></span>
+              <span>I'm not sure yet</span>
+            </label>
+
+          </div>
+
+        </div>
+
+
+        <!-- TIMELINE -->
+
+        <div class="form-block">
+
+          <div class="form-block-heading">
+            <span>05</span>
+            Timeline
+          </div>
+
+          <p class="form-helper">
+            When would you like to get started?
+          </p>
+
+          <div class="radio-options">
+
+            <label class="radio-option">
+              <input
+                type="radio"
+                name="timeline"
+                value="As soon as possible"
+              >
+              <span class="custom-radio"></span>
+              <span>As soon as possible</span>
+            </label>
+
+            <label class="radio-option">
+              <input
+                type="radio"
+                name="timeline"
+                value="Within the next month"
+              >
+              <span class="custom-radio"></span>
+              <span>Within the next month</span>
+            </label>
+
+            <label class="radio-option">
+              <input
+                type="radio"
+                name="timeline"
+                value="Within 1–3 months"
+              >
+              <span class="custom-radio"></span>
+              <span>Within 1–3 months</span>
+            </label>
+
+            <label class="radio-option">
+              <input
+                type="radio"
+                name="timeline"
+                value="Just exploring"
+              >
+              <span class="custom-radio"></span>
+              <span>I'm just exploring</span>
+            </label>
+
+          </div>
+
+        </div>
+
+
+        <!-- SUBMIT -->
+
+        <div class="form-submit">
+
+          <button
+            type="submit"
+            class="contact-submit"
+          >
+            Send Project Enquiry
+            <span>↗</span>
+          </button>
+
+          <p>
+            Your information is only used to understand your
+            project and communicate with you about your enquiry.
+          </p>
+
+        </div>
+
+        <div
+          class="form-success"
+          id="formSuccess"
+          aria-live="polite"
+        >
+          Thanks — your enquiry has been received.
+          We'll be in touch soon.
+        </div>
+
+      </form>
+
+    </section>
+
+
+    <!-- =========================================
+         WHAT HAPPENS NEXT
+    ========================================== -->
+
+    <section class="contact-next">
+
+      <div class="contact-section-number">
+        03
+      </div>
+
+      <div class="contact-next-content">
+
+        <div class="contact-label">
+          What happens next?
+        </div>
+
+        <div class="next-list">
+
+          <article class="next-item">
+
+            <span class="next-number">
+              01
+            </span>
+
+            <div>
+              <h3>We review</h3>
+
+              <p>
+                We'll look through your enquiry and understand
+                what you're trying to achieve.
+              </p>
+            </div>
+
+          </article>
+
+
+          <article class="next-item">
+
+            <span class="next-number">
+              02
+            </span>
+
+            <div>
+              <h3>We connect</h3>
+
+              <p>
+                If your project is a good fit, we'll get in touch
+                to discuss your requirements in more detail.
+              </p>
+            </div>
+
+          </article>
+
+
+          <article class="next-item">
+
+            <span class="next-number">
+              03
+            </span>
+
+            <div>
+              <h3>We plan</h3>
+
+              <p>
+                We'll define the scope, priorities, approach,
+                and estimated investment.
+              </p>
+            </div>
+
+          </article>
+
+
+          <article class="next-item">
+
+            <span class="next-number">
+              04
+            </span>
+
+            <div>
+              <h3>We build</h3>
+
+              <p>
+                Once everything is agreed, we begin turning
+                the idea into a working digital solution.
+              </p>
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================
+         NOT READY
+    ========================================== -->
+
+    <section class="contact-not-ready">
+
+      <div class="contact-not-ready-inner">
+
+        <div class="contact-label">
+          Not ready to start yet?
+        </div>
+
+        <h2>
+          That's okay.
+        </h2>
+
+        <p>
+          You don't need to have everything figured out
+          before contacting us.
+        </p>
+
+        <p>
+          If you only have an idea, a problem you're trying
+          to solve, or you're unsure which solution your
+          business needs, start the conversation anyway.
+        </p>
+
+        <div class="contact-divider"></div>
+
+        <h3>
+          Let's figure it out together.
+        </h3>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================
+         FINAL CTA
+    ========================================== -->
+
+    <section class="contact-final">
+
+      <div class="contact-final-small">
+        Prefer to talk first?
+      </div>
+
+      <h2>
+        Have a quick<br>
+        question?
+      </h2>
+
+      <p>
+        Have a quick question before submitting a project
+        enquiry? We're happy to hear what you're working on.
+      </p>
+
+      <a
+        href="mailto:hello@credhive.co.za"
+        class="contact-email"
+      >
+        Email us
+        <span>↗</span>
+      </a>
+
+    </section>
+
+  </main>
+
+
+  <!-- =========================================
+       FOOTER
+  ========================================== -->
+
+  <footer>
+
+    <div class="footer-top">
+
+      <div class="footer-logo">
+        CredHive
+      </div>
+
+      <div class="footer-links">
+
+        <div>
+          <a href="index.html">Home</a>
+          <a href="work.html">Work</a>
+          <a href="services.html">Services</a>
+        </div>
+
+        <div>
+          <a href="about.html">About</a>
+          <a href="process.html">Process</a>
+          <a href="contact.html">Contact</a>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+      <span>
+        © 2026 CredHive
+      </span>
+
+      <span>
+        Digital solutions that work.
+      </span>
+
+    </div>
+
+  </footer>
+
+
+  <!-- =========================================
+       SCRIPT
+  ========================================== -->
+
+  <script src="script.js"></script>
+
+</body>
+</html>

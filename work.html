@@ -1,24 +1,59 @@
-<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8" /> <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <title>CREDHIVE - Work</title> <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" > <!-- Your existing CSS --> <link rel="stylesheet" href="style.css"> </head> <body> <!-- ========================= NAVIGATION ========================== --> <nav class="navbar">
+<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0" > <title>CREDHIVE® — Work</title>
+<meta
+name="description"
+content="Selected digital work by CREDHIVE Studio.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" > 
+<link rel="stylesheet" href="style.css"> 
+</head> 
+<body> 
+  <!-- ===================================== NAVIGATION ====================================== --> <nav class="navbar">
 <div class="nav-group nav-left">
-  <a href="index.html">Home</a>
-  <a href="work.html">Work</a>
+
+  <a href="index.html">
+    Home
+  </a>
+
+  <a href="work.html" class="active">
+    Work
+  </a>
+
 </div>
 
-<a href="index.html" class="logo">
-  CREDHIVE®<br>
+
+<a
+  href="index.html"
+  class="logo"
+  aria-label="CREDHIVE Studio Home"
+>
+  CREDHIVE
   <span>STUDIO</span>
 </a>
 
+
 <div class="nav-group nav-right">
-  <a href="index.html#services">Services</a>
-  <a href="index.html#about">About</a>
+
+  <a href="services.html">
+    Services
+  </a>
+
+  <a href="about.html">
+    About
+  </a>
+
 </div>
+
+
+<!-- MOBILE BUTTON -->
 
 <button
   class="menu"
   id="menu"
-  aria-label="Open menu"
   type="button"
+  aria-label="Open menu"
+  aria-expanded="false"
 >
   ☰
 </button>
@@ -26,7 +61,10 @@
 
 <!-- MOBILE MENU -->
 
-<div class="mobile-menu" id="navLinks">
+<div
+  class="mobile-menu"
+  id="navLinks"
+>
 
   <div class="mobile-menu-inner">
 
@@ -34,113 +72,175 @@
       MENU
     </div>
 
+
     <a href="index.html">
       Home
-      <span></span>
+      <span>↗</span>
     </a>
+
 
     <a href="work.html">
       Work
-      <span></span>
+      <span>↗</span>
     </a>
 
-    <a href="index.html#services">
+
+    <a href="services.html">
       Services
-      <span></span>
+      <span>↗</span>
     </a>
 
-    <a href="index.html#about">
+
+    <a href="about.html">
       About
-      <span></span>
+      <span>↗</span>
     </a>
 
-    <a href="index.html#process">
+
+    <a href="process.html">
       Process
-      <span></span>
+      <span>↗</span>
     </a>
+
 
     <a href="index.html#contact">
       Contact
-      <span></span>
+      <span>↗</span>
     </a>
 
   </div>
 
 </div>
 
-</nav> <!-- ========================= WORK HERO ========================== --> <main>
+</nav> <main>
+<!-- =====================================
+     WORK HERO
+====================================== -->
+
 <section class="work-hero">
 
+
   <div class="work-eyebrow">
-    Selected Work 
+    CREDHIVE / Selected Work
   </div>
 
-  <h1 class="work-heading">
-    WORK
-  </h1>
 
-  <p class="work-intro">
-    A selection of digital experiences, websites and
-    interfaces created for brands, businesses and
-    ambitious ideas.
-  </p>
+  <div class="work-hero-content">
+
+    <h1 class="work-heading">
+      WORK
+    </h1>
+
+
+    <div class="work-hero-side">
+
+      <p class="work-intro">
+        A selection of digital experiences,
+        websites and interfaces created for
+        ambitious brands, businesses and ideas.
+      </p>
+
+
+      <div class="work-scroll">
+        Scroll to explore
+        <span>↓</span>
+      </div>
+
+    </div>
+
+  </div>
+
 
 </section>
 
 
-<!-- =========================
+
+<!-- =====================================
      PROJECTS
-========================== -->
+====================================== -->
 
 <section class="work-projects">
 
 
-  <!-- PROJECT 01 -->
+  <!-- =================================
+       PROJECT 01
+  ================================== -->
 
   <article class="work-project">
 
+
     <div class="work-project-header">
 
+
       <div class="work-project-number">
-        
+        01
       </div>
 
+
       <h2 class="work-project-title">
+
         CREDHIVE
         <br>
-        PORTFOLIO
+        STUDIO
+
       </h2>
+
 
       <div class="work-project-type">
         Personal / Creative
       </div>
 
+
     </div>
+
 
 
     <div class="work-project-image">
 
       <img
-        src="https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=1800&q=90"
-        alt="CREDHIVE portfolio website"
+        src="https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=2000&q=90"
+        alt="CREDHIVE creative studio website"
+        loading="lazy"
       >
+
+
+      <div class="project-image-overlay">
+
+        <span>
+          View Case Study
+        </span>
+
+        <span>
+          ↗
+        </span>
+
+      </div>
 
     </div>
 
 
+
     <div class="work-project-details">
+
 
       <div>
 
         <p class="work-project-description">
-          A bold digital portfolio designed to showcase
-          creative work, skills and digital experiences
-          through a clean and memorable visual identity.
+
+          A bold digital portfolio designed
+          to showcase creative work, skills
+          and digital experiences through a
+          distinctive visual identity.
+
         </p>
 
-        <a href="#" class="work-project-link">
+
+        <a
+          href="#"
+          class="work-project-link"
+        >
           View Project
-          <span></span>
+          <span>↗</span>
         </a>
 
       </div>
@@ -166,57 +266,93 @@
 
       </div>
 
+
     </div>
+
 
   </article>
 
 
-  <!-- PROJECT 02 -->
+
+  <!-- =================================
+       PROJECT 02
+  ================================== -->
 
   <article class="work-project">
 
+
     <div class="work-project-header">
 
+
       <div class="work-project-number">
-        
+        02
       </div>
+
 
       <h2 class="work-project-title">
-        RESTAURANT WEBSITE
+
+        RESTAURANT
         <br>
-        + BOOKING
+        EXPERIENCE
+
       </h2>
 
+
       <div class="work-project-type">
-        Restaurant Website / Booking
+        Restaurant / Booking
       </div>
 
+
     </div>
+
 
 
     <div class="work-project-image">
 
       <img
-        src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1800&q=90"
-        alt="Modern restaurant website"
+        src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=2000&q=90"
+        alt="Modern restaurant website design"
+        loading="lazy"
       >
+
+
+      <div class="project-image-overlay">
+
+        <span>
+          View Case Study
+        </span>
+
+        <span>
+          ↗
+        </span>
+
+      </div>
 
     </div>
 
 
+
     <div class="work-project-details">
+
 
       <div>
 
         <p class="work-project-description">
-          A modern restaurant website focused on visual
-          storytelling, menu discovery and a seamless
-          reservation experience for guests.
+
+          A modern restaurant experience
+          focused on visual storytelling,
+          menu discovery and a seamless
+          reservation journey for guests.
+
         </p>
 
-        <a href="#" class="work-project-link">
+
+        <a
+          href="#"
+          class="work-project-link"
+        >
           View Project
-          <span></span>
+          <span>↗</span>
         </a>
 
       </div>
@@ -242,57 +378,93 @@
 
       </div>
 
+
     </div>
+
 
   </article>
 
 
-  <!-- PROJECT 03 -->
+
+  <!-- =================================
+       PROJECT 03
+  ================================== -->
 
   <article class="work-project">
 
+
     <div class="work-project-header">
 
+
       <div class="work-project-number">
-        
+        03
       </div>
 
+
       <h2 class="work-project-title">
+
         MODERN
         <br>
-        BUSINESS WEBSITE
+        BUSINESS
+
       </h2>
+
 
       <div class="work-project-type">
         Business / Corporate
       </div>
 
+
     </div>
+
 
 
     <div class="work-project-image">
 
       <img
-        src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1800&q=90"
+        src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=2000&q=90"
         alt="Modern business website"
+        loading="lazy"
       >
+
+
+      <div class="project-image-overlay">
+
+        <span>
+          View Case Study
+        </span>
+
+        <span>
+          ↗
+        </span>
+
+      </div>
 
     </div>
 
 
+
     <div class="work-project-details">
+
 
       <div>
 
         <p class="work-project-description">
-          A refined business website built to communicate
-          trust, expertise and clarity while giving the
-          company a modern digital presence.
+
+          A refined corporate website built
+          to communicate trust, expertise
+          and clarity while giving the company
+          a stronger digital presence.
+
         </p>
 
-        <a href="#" class="work-project-link">
+
+        <a
+          href="#"
+          class="work-project-link"
+        >
           View Project
-          <span></span>
+          <span>↗</span>
         </a>
 
       </div>
@@ -318,7 +490,121 @@
 
       </div>
 
+
     </div>
+
+
+  </article>
+
+
+
+  <!-- =================================
+       PROJECT 04
+  ================================== -->
+
+  <article class="work-project">
+
+
+    <div class="work-project-header">
+
+
+      <div class="work-project-number">
+        04
+      </div>
+
+
+      <h2 class="work-project-title">
+
+        DIGITAL
+        <br>
+        STORE
+
+      </h2>
+
+
+      <div class="work-project-type">
+        E-commerce / Digital
+      </div>
+
+
+    </div>
+
+
+
+    <div class="work-project-image">
+
+      <img
+        src="https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?auto=format&fit=crop&w=2000&q=90"
+        alt="Modern e-commerce website"
+        loading="lazy"
+      >
+
+
+      <div class="project-image-overlay">
+
+        <span>
+          View Case Study
+        </span>
+
+        <span>
+          ↗
+        </span>
+
+      </div>
+
+    </div>
+
+
+
+    <div class="work-project-details">
+
+
+      <div>
+
+        <p class="work-project-description">
+
+          An e-commerce concept focused
+          on product presentation, intuitive
+          navigation and a clean purchasing
+          experience.
+
+        </p>
+
+
+        <a
+          href="#"
+          class="work-project-link"
+        >
+          View Project
+          <span>↗</span>
+        </a>
+
+      </div>
+
+
+      <div class="work-project-meta">
+
+        <span class="work-tag">
+          E-commerce
+        </span>
+
+        <span class="work-tag">
+          UI / UX
+        </span>
+
+        <span class="work-tag">
+          Development
+        </span>
+
+        <span class="work-tag">
+          2026
+        </span>
+
+      </div>
+
+
+    </div>
+
 
   </article>
 
@@ -326,43 +612,66 @@
 </section>
 
 
-<!-- =========================
-     CTA
-========================== -->
+
+<!-- =====================================
+     WORK CTA
+====================================== -->
 
 <section class="cta">
+
 
   <div class="cta-small">
     Have a project?
   </div>
 
+
   <h2 class="cta-title">
-    LET'S MAKE<br>
-    SOMETHING<br>
+
+    LET'S MAKE
+    <br>
+    SOMETHING
+    <br>
     GREAT.
+
   </h2>
+
+
+  <p class="cta-description">
+
+    Have an idea, a business or a digital
+    problem that needs solving?
+
+  </p>
+
 
   <a
     href="mailto:ntuthukodaliwonga@gmail.com"
     class="cta-button"
   >
     Start a conversation
+    <span>↗</span>
   </a>
+
 
 </section>
 
-</main> <!-- ========================= FOOTER ========================== --> <footer>
+</main> <!-- ===================================== FOOTER ====================================== --> <footer>
 <div class="footer-top">
 
+
   <div class="footer-logo">
-    CREDHIVE
+    CREDHIVE®
   </div>
+
 
   <div class="footer-links">
 
+
     <div>
 
-      <span>Social</span>
+      <span>
+        Social
+      </span>
 
       <a href="#">
         Instagram
@@ -379,9 +688,12 @@
     </div>
 
 
+
     <div>
 
-      <span>Contact</span>
+      <span>
+        Contact
+      </span>
 
       <a href="mailto:ntuthukodaliwonga@gmail.com">
         ntuthukodaliwonga@gmail.com
@@ -393,15 +705,18 @@
 
     </div>
 
+
   </div>
 
+
 </div>
+
 
 
 <div class="footer-bottom">
 
   <span>
-    © 2026 CredHive Studio
+    © 2026 CREDHIVE Studio
   </span>
 
   <span>
@@ -410,4 +725,7 @@
 
 </div>
 
-</footer> <!-- Existing JavaScript --> <script src="script.js"></script> </body> </html>
+</footer> 
+<script src="script.js"></script> 
+</body> 
+</html>

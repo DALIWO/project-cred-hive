@@ -1,440 +1,1139 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8">
+<meta
+name="viewport"
+content="width=device-width, initial-scale=1.0">
 
-  <title>CRED_HIVE - Studio</title>
+<meta
+name="description"
+content="CREDHIVE is an independent digital development studio creating distinctive websites, digital experiences and custom solutions.">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  
+<title>CREDHIVE® — Digital Studio</title> <!-- Google Fonts --> <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" > <!-- Main stylesheet --> <link rel="stylesheet" href="style.css"> </head> <body> <!-- ===================================================== PAGE LOADER ====================================================== --> <div class="page-loader" id="pageLoader">
+<div class="loader-inner">
 
-</head>
+  <div class="loader-logo">
+    CREDHIVE<span>®</span>
+  </div>
 
-<body>
+  <div class="loader-line">
+    <span></span>
+  </div>
 
-  <!-- NAVIGATION -->
+  <div class="loader-counter">
+    <span id="loaderCounter">0</span>%
+  </div>
+
+</div>
+
+</div> <!-- ===================================================== NAVIGATION ====================================================== --> <header class="site-header">
 <nav class="navbar">
 
-  <!-- LEFT DESKTOP LINKS -->
+  <!-- Left navigation -->
+
   <div class="nav-group nav-left">
-    <a href="work.html">Work</a>
-    <a href="index.html#services">Services</a>
+
+    <a href="#work">
+      Work
+    </a>
+
+    <a href="services.html">
+      Services
+    </a>
+
   </div>
 
 
-  <!-- LOGO -->
-  <a href="index.html" class="logo">
-    CREDHIVE<br>
+  <!-- Logo -->
+
+  <a
+    href="index.html"
+    class="logo"
+    aria-label="CREDHIVE Home"
+  >
+    CREDHIVE
     <span>STUDIO</span>
   </a>
 
 
-  <!-- RIGHT DESKTOP LINKS -->
+  <!-- Right navigation -->
+
   <div class="nav-group nav-right">
-    <a href="about.html">About</a>
-    <a href="#process">Process</a>
+
+    <a href="about.html">
+      About
+    </a>
+
+    <a href="process.html">
+      Process
+    </a>
+
   </div>
 
 
-  <!-- MOBILE BUTTON -->
+  <!-- Mobile menu button -->
+
   <button
     class="menu"
     id="menu"
-    aria-label="Open menu"
     type="button"
+    aria-label="Open menu"
+    aria-expanded="false"
   >
-    ☰
+
+    <span></span>
+    <span></span>
+
   </button>
-
-
-  <!-- MOBILE MENU -->
-  <div class="mobile-menu" id="navLinks">
-
-    <div class="mobile-menu-inner">
-
-      <div class="mobile-label">
-        MENU
-      </div>
-
-      <a href="work">
-        Work
-        <span></span>
-      </a>
-
-      <a href="index.html#services">
-        Services
-        <span></span>
-      </a>
-
-      <a href="index.html#about">
-        About
-        <span></span>
-      </a>
-
-      <a href="index.html#process">
-        Process
-        <span></span>
-      </a>
-
-      <a href="index.html#contact">
-        Contact
-        <span></span>
-      </a>
-
-    </div>
-
-  </div>
 
 </nav>
 
 
+<!-- =================================================
+     MOBILE NAVIGATION
+================================================== -->
 
+<div
+  class="mobile-menu"
+  id="navLinks"
+  aria-hidden="true"
+>
 
+  <div class="mobile-menu-inner">
 
-  <!-- HERO -->
-
-  <header class="hero">
-
-    <div class="hero-top">
-      <div class="eyebrow">Independent Web Design Studio</div>
-
-      <p class="hero-description">
-        We create distinctive digital experiences for ambitious
-        brands, startups and people who refuse to look ordinary.
-      </p>
-    </div>
-
-    <h1 class="hero-title">
-      <span>Digital</span>
-      <span>Culture.</span>
-    </h1>
-
-    <div class="hero-bottom">
-      <span class="scroll">SCROLL TO EXPLORE ↓</span>
-
-      <a href="#work" class="circle-arrow">↓</a>
-    </div>
-
-  </header>
-
-
-  <!-- WORK -->
-
-  <section id="work">
-
-    <div class="section-header">
-      <div class="section-number">SELECTED WORK</div>
-
-      <h2 class="section-title">
-        Things we've<br>
-        made.
-      </h2>
+    <div class="mobile-label">
+      Navigation
     </div>
 
 
-    <div class="work-grid">
+    <div class="mobile-links">
 
-      <article class="project">
-        <img
-          class="project-image"
-          src="https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=1400&q=85"
-          alt="Creative website project"
-        >
+      <a href="index.html">
+        <span>Home</span>
+      </a>
 
-        <div class="project-info">
-          <div>
-            <div class="project-name">MONO</div>
-            <div class="project-category">Branding / Web Design</div>
-          </div>
+      <a href="#work">
+        <span>Work</span>
+      </a>
 
-          <div>2026 </div>
-        </div>
-      </article>
+      <a href="services.html">
+        <span>Services</span>
+      </a>
 
+      <a href="about.html">
+        <span>About</span>
+      </a>
 
-      <article class="project">
-        <img
-          class="project-image"
-          src="https://images.unsplash.com/photo-1559028012-481c04fa702d?auto=format&fit=crop&w=1200&q=85"
-          alt="Digital design project"
-        >
+      <a href="process.html">
+        <span>Process</span>
+      </a>
 
-        <div class="project-info">
-          <div>
-            <div class="project-name">FORM</div>
-            <div class="project-category">UI/UX / Development</div>
-          </div>
-
-          <div>2026 </div>
-        </div>
-      </article>
-
-
-      <article class="project">
-        <img
-          class="project-image"
-          src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?auto=format&fit=crop&w=1200&q=85"
-          alt="Website design"
-        >
-
-        <div class="project-info">
-          <div>
-            <div class="project-name">ARCHIVE</div>
-            <div class="project-category">E-commerce / Digital</div>
-          </div>
-
-          <div>2025 </div>
-        </div>
-      </article>
-
-
-      <!--<article class="project">
-        <img
-          class="project-image"
-          src="https://images.unsplash.com/photo-1545235617-9465d2a55698?auto=format&fit=crop&w=1400&q=85"
-          alt="Modern website project"
-        >
-
-        <div class="project-info">
-          <div>
-            <div class="project-name">NORTH</div>
-            <div class="project-category">Strategy / Web Design</div>
-          </div>
-
-          <div>2025 </div>
-        </div>
-      </article> -->
+      <a href="#contact">
+        <span>Contact</span>
+      </a>
 
     </div>
 
-  </section>
 
+    <div class="mobile-footer">
 
-  <!-- SERVICES -->
+      <span>
+        CREDHIVE® STUDIO
+      </span>
 
-  <section id="services" class="services">
+      <span>
+        Digital Development
+      </span>
 
-    <div class="section-header">
-      <div class="section-number">SERVICES</div>
+    </div>
 
-      <h2 class="section-title">
-        What we<br>
-        do.
-      </h2>
+  </div>
+
+</div>
+
+</header> <!-- ===================================================== MAIN ====================================================== --> <main>
+<!-- =================================================
+     HERO
+================================================== -->
+
+<section class="hero" id="home">
+
+  <div class="hero-top">
+
+    <div class="hero-eyebrow">
+
+      <span class="eyebrow-dot"></span>
+
+      Independent Digital Studio
+
     </div>
 
 
-    <div class="service">
-      <span class="service-number"></span>
-      <h3 class="service-name">Web Design</h3>
-      <span class="service-arrow"></span>
-    </div>
+    <div class="hero-intro">
 
-    <div class="service">
-      <span class="service-number"></span>
-      <h3 class="service-name">UI / UX</h3>
-      <span class="service-arrow"></span>
-    </div>
-
-    <div class="service">
-      <span class="service-number"></span>
-      <h3 class="service-name">Development</h3>
-      <span class="service-arrow"></span>
-    </div>
-
-    <div class="service">
-      <span class="service-number"></span>
-      <h3 class="service-name">E-commerce</h3>
-      <span class="service-arrow"></span>
-    </div>
-
-    <!-- <div class="service">
-      <span class="service-number"></span>
-      <h3 class="service-name">Brand Strategy</h3>
-      <span class="service-arrow"></span>
-    </div> -->
-
-  </section>
-
-
-  <!-- ABOUT -->
-
-  <section id="about" class="about">
-
-    <div class="section-header">
-      <div class="section-number">ABOUT CREDHIVE</div>
-    </div>
-
-    <div class="about-content">
-
-      <h2 class="about-big">
-        We build websites
-        people remember.
-      </h2>
-
-      <p class="about-text">
-        CREDHIVE is an independent digital studio focused on creating
-        bold websites and digital identities for companies that
-        want to move differently.
-        <br><br>
-        We combine strategy, design and technology to turn ideas
-        into experiences that connect with people.
+      <p>
+        We design and build distinctive digital
+        experiences for ambitious businesses,
+        brands and ideas.
       </p>
 
     </div>
 
-
-    <!--<div class="stats">
-
-      <div>
-        <div class="stat-number">48+</div>
-        <div class="stat-label">Projects launched</div>
-      </div>
-
-      <div>
-        <div class="stat-number">12</div>
-        <div class="stat-label">Countries reached</div>
-      </div>
-
-      <div>
-        <div class="stat-number">7</div>
-        <div class="stat-label">Years creating</div>
-      </div>
-
-    </div> -->
-
-  </section>
+  </div>
 
 
-  <!-- PROCESS -->
+  <div class="hero-main">
 
-  <section id="process">
+    <div class="hero-title-wrap">
 
-    <div class="section-header">
-      <div class="section-number">PROCESS</div>
+      <h1 class="hero-title">
 
-      <h2 class="section-title">
-        Simple.<br>
-        Effective.
-      </h2>
-    </div>
+        <span class="hero-line">
+          Digital
+        </span>
 
+        <span class="hero-line hero-line-offset">
+          Experiences
+        </span>
 
-    <div class="process-grid">
-
-      <div class="process">
-        <div class="process-number">01</div>
-
-        <h3>Discover</h3>
-
-        <p>
-          We understand your business, audience,
-          goals and what makes your brand different.
-        </p>
-      </div>
-
-
-      <div class="process">
-        <div class="process-number">02</div>
-
-        <h3>Design</h3>
-
-        <p>
-          We turn strategy into a visual direction
-          designed to make your brand impossible to ignore.
-        </p>
-      </div>
-
-
-      <div class="process">
-        <div class="process-number">03</div>
-
-        <h3>Build</h3>
-
-        <p>
-          Our developers transform the design into
-          a fast, responsive and scalable website.
-        </p>
-      </div>
-
-
-      <div class="process">
-        <div class="process-number">04</div>
-
-        <h3>Launch</h3>
-
-        <p>
-          We test, polish and launch your new digital
-          experience into the world.
-        </p>
-      </div>
+      </h1>
 
     </div>
 
-  </section>
+
+    <div class="hero-side">
+
+      <span>
+        Based in South Africa
+      </span>
+
+      <span>
+        Available Worldwide
+      </span>
+
+    </div>
+
+  </div>
 
 
-  <!-- CTA -->
+  <div class="hero-bottom">
 
-  <section id="contact" class="cta">
+    <div class="hero-scroll">
 
-    <div class="cta-small">Have a project?</div>
+      <span class="scroll-line"></span>
 
-    <h2 class="cta-title">
-      LET'S MAKE<br>
-      SOMETHING<br>
-      GREAT.
-    </h2>
+      <span>
+        Scroll to explore
+      </span>
 
-    <a href="mailto:hello@nova.studio" class="cta-button">
-      Start a conversation 
+    </div>
+
+
+    <a
+      href="#work"
+      class="hero-circle"
+      aria-label="Scroll to selected work"
+    >
+
+      <span>
+        ↓
+      </span>
+
     </a>
 
-  </section>
+  </div>
+
+</section>
 
 
-  <!-- FOOTER -->
 
-  <footer>
+<!-- =================================================
+     INTRO STATEMENT
+================================================== -->
 
-    <div class="footer-top">
+<section class="statement">
 
-      <div class="footer-logo">CREDHIVE®</div>
+  <div class="statement-top">
 
-      <div class="footer-links">
+    <span>
+      01 / Introduction
+    </span>
 
-        <div>
-          <span>Social</span>
-          <a href="#">Instagram</a>
-          <a href="#">Behance</a>
-          <a href="#">LinkedIn</a>
+    <span>
+      CREDHIVE®
+    </span>
+
+  </div>
+
+
+  <div class="statement-content">
+
+    <h2>
+
+      We create
+      <span>digital work</span>
+      that people
+      <span>remember.</span>
+
+    </h2>
+
+
+    <div class="statement-description">
+
+      <p>
+        CREDHIVE is a digital development studio
+        focused on creating modern websites,
+        digital products and custom systems
+        designed around real business goals.
+      </p>
+
+      <a
+        href="about.html"
+        class="text-link"
+      >
+
+        More about us
+
+        <span>↗</span>
+
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- =================================================
+     MARQUEE
+================================================== -->
+
+<section class="marquee-section">
+
+  <div class="marquee">
+
+    <div class="marquee-track">
+
+      <span>
+        DESIGN
+      </span>
+
+      <i>✦</i>
+
+      <span>
+        DEVELOPMENT
+      </span>
+
+      <i>✦</i>
+
+      <span>
+        DIGITAL
+      </span>
+
+      <i>✦</i>
+
+      <span>
+        EXPERIENCE
+      </span>
+
+      <i>✦</i>
+
+      <span>
+        DESIGN
+      </span>
+
+      <i>✦</i>
+
+      <span>
+        DEVELOPMENT
+      </span>
+
+      <i>✦</i>
+
+      <span>
+        DIGITAL
+      </span>
+
+      <i>✦</i>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- =================================================
+     SELECTED WORK
+================================================== -->
+
+<section
+  class="work-section"
+  id="work"
+>
+
+  <div class="section-heading">
+
+    <div class="section-label">
+      02 / Selected Work
+    </div>
+
+    <div class="section-heading-right">
+
+      <span>
+        Recent projects
+      </span>
+
+      <span>
+        2025—2026
+      </span>
+
+    </div>
+
+  </div>
+
+
+  <div class="work-list">
+
+
+    <!-- PROJECT 01 -->
+
+    <article class="project-card project-large">
+
+      <a href="work.html">
+
+        <div class="project-image">
+
+          <img
+            src="https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=1800&q=90"
+            alt="CREDHIVE digital portfolio project"
+            loading="lazy"
+          >
+
+          <div class="project-overlay">
+
+            <span>
+              View project
+            </span>
+
+            <span>
+              ↗
+            </span>
+
+          </div>
+
         </div>
 
-        <div>
-          <span>Contact</span>
-          <a href="mailto:ntuthukodaliwonga@gmail.com">
-            ntuthukodaliwonga@gmail.com
-          </a>
-          <a href="#">Johannesburg</a>
+
+        <div class="project-meta">
+
+          <div>
+
+            <h3>
+              CREDHIVE
+            </h3>
+
+            <p>
+              Digital Studio / Portfolio
+            </p>
+
+          </div>
+
+          <span>
+            2026
+          </span>
+
         </div>
+
+      </a>
+
+    </article>
+
+
+
+    <!-- PROJECT 02 -->
+
+    <article class="project-card project-small">
+
+      <a href="work.html">
+
+        <div class="project-image">
+
+          <img
+            src="https://images.unsplash.com/photo-1559028012-481c04fa702d?auto=format&fit=crop&w=1600&q=90"
+            alt="Digital interface design project"
+            loading="lazy"
+          >
+
+          <div class="project-overlay">
+
+            <span>
+              View project
+            </span>
+
+            <span>
+              ↗
+            </span>
+
+          </div>
+
+        </div>
+
+
+        <div class="project-meta">
+
+          <div>
+
+            <h3>
+              FORM
+            </h3>
+
+            <p>
+              UI / UX / Development
+            </p>
+
+          </div>
+
+          <span>
+            2026
+          </span>
+
+        </div>
+
+      </a>
+
+    </article>
+
+
+
+    <!-- PROJECT 03 -->
+
+    <article class="project-card project-medium">
+
+      <a href="work.html">
+
+        <div class="project-image">
+
+          <img
+            src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?auto=format&fit=crop&w=1600&q=90"
+            alt="E-commerce digital project"
+            loading="lazy"
+          >
+
+          <div class="project-overlay">
+
+            <span>
+              View project
+            </span>
+
+            <span>
+              ↗
+            </span>
+
+          </div>
+
+        </div>
+
+
+        <div class="project-meta">
+
+          <div>
+
+            <h3>
+              ARCHIVE
+            </h3>
+
+            <p>
+              E-commerce / Digital
+            </p>
+
+          </div>
+
+          <span>
+            2025
+          </span>
+
+        </div>
+
+      </a>
+
+    </article>
+
+  </div>
+
+
+  <div class="work-more">
+
+    <a
+      href="work.html"
+      class="outline-button"
+    >
+
+      <span>
+        Explore all work
+      </span>
+
+      <span>
+        ↗
+      </span>
+
+    </a>
+
+  </div>
+
+</section>
+
+
+
+<!-- =================================================
+     SERVICES
+================================================== -->
+
+<section
+  class="services-section"
+  id="services"
+>
+
+  <div class="section-heading">
+
+    <div class="section-label">
+      03 / Services
+    </div>
+
+    <div class="section-heading-right">
+
+      <span>
+        What we do
+      </span>
+
+    </div>
+
+  </div>
+
+
+  <div class="services-intro">
+
+    <h2>
+      Digital solutions
+      <br>
+      built with purpose.
+    </h2>
+
+    <p>
+      From first idea to final launch, we combine
+      strategy, design and development to create
+      digital experiences that work beautifully
+      and perform effectively.
+    </p>
+
+  </div>
+
+
+  <div class="services-list">
+
+
+    <div class="service-row">
+
+      <div class="service-number">
+        01
+      </div>
+
+      <h3>
+        Web Development
+      </h3>
+
+      <div class="service-description">
+
+        <p>
+          Fast, responsive websites built around
+          your business, customers and goals.
+        </p>
+
+      </div>
+
+      <div class="service-arrow">
+        ↗
+      </div>
+
+    </div>
+
+
+    <div class="service-row">
+
+      <div class="service-number">
+        02
+      </div>
+
+      <h3>
+        UI / UX Design
+      </h3>
+
+      <div class="service-description">
+
+        <p>
+          Clear interfaces and thoughtful user
+          experiences designed to make digital
+          products easier to use.
+        </p>
+
+      </div>
+
+      <div class="service-arrow">
+        ↗
+      </div>
+
+    </div>
+
+
+    <div class="service-row">
+
+      <div class="service-number">
+        03
+      </div>
+
+      <h3>
+        E-commerce
+      </h3>
+
+      <div class="service-description">
+
+        <p>
+          Digital storefronts designed to create
+          better shopping experiences and convert
+          visitors into customers.
+        </p>
+
+      </div>
+
+      <div class="service-arrow">
+        ↗
+      </div>
+
+    </div>
+
+
+    <div class="service-row">
+
+      <div class="service-number">
+        04
+      </div>
+
+      <h3>
+        Custom Systems
+      </h3>
+
+      <div class="service-description">
+
+        <p>
+          Custom management platforms and digital
+          tools designed around the way your
+          business actually works.
+        </p>
+
+      </div>
+
+      <div class="service-arrow">
+        ↗
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- =================================================
+     ABOUT / STUDIO
+================================================== -->
+
+<section class="studio-section">
+
+  <div class="section-heading">
+
+    <div class="section-label">
+      04 / The Studio
+    </div>
+
+  </div>
+
+
+  <div class="studio-content">
+
+    <h2>
+      We don't just
+      <span>build websites.</span>
+    </h2>
+
+
+    <div class="studio-copy">
+
+      <p>
+        We understand the business behind them.
+      </p>
+
+      <p>
+        CREDHIVE works with businesses and
+        ambitious ideas to create digital
+        experiences that are useful, distinctive
+        and built to grow.
+      </p>
+
+
+      <a
+        href="about.html"
+        class="text-link dark-link"
+      >
+
+        Discover CREDHIVE
+
+        <span>
+          ↗
+        </span>
+
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- =================================================
+     PROCESS
+================================================== -->
+
+<section
+  class="process-section"
+  id="process"
+>
+
+  <div class="section-heading">
+
+    <div class="section-label">
+      05 / Process
+    </div>
+
+    <div class="section-heading-right">
+
+      <span>
+        How we work
+      </span>
+
+    </div>
+
+  </div>
+
+
+  <div class="process-heading">
+
+    <h2>
+      Simple.
+      <br>
+      Intentional.
+      <br>
+      Effective.
+    </h2>
+
+  </div>
+
+
+  <div class="process-list">
+
+
+    <div class="process-item">
+
+      <div class="process-number">
+        01
+      </div>
+
+      <div class="process-content">
+
+        <h3>
+          Discover
+        </h3>
+
+        <p>
+          We learn about your business, your
+          audience, your goals and the problem
+          we're solving.
+        </p>
 
       </div>
 
     </div>
 
 
-    <div class="footer-bottom">
-      <span>© 2026 CredHive Studio</span>
-      <span>Designed with intention.</span>
+    <div class="process-item">
+
+      <div class="process-number">
+        02
+      </div>
+
+      <div class="process-content">
+
+        <h3>
+          Define
+        </h3>
+
+        <p>
+          We turn the information into a clear
+          strategy, structure and creative
+          direction.
+        </p>
+
+      </div>
+
     </div>
 
-  </footer>
+
+    <div class="process-item">
+
+      <div class="process-number">
+        03
+      </div>
+
+      <div class="process-content">
+
+        <h3>
+          Design
+        </h3>
+
+        <p>
+          We create the visual language,
+          interface and experience that bring
+          the strategy to life.
+        </p>
+
+      </div>
+
+    </div>
 
 
-  <script src="script.js"></script>
-</body>
+    <div class="process-item">
+
+      <div class="process-number">
+        04
+      </div>
+
+      <div class="process-content">
+
+        <h3>
+          Build
+        </h3>
+
+        <p>
+          We transform the design into a fast,
+          responsive and scalable digital
+          experience.
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <div class="process-item">
+
+      <div class="process-number">
+        05
+      </div>
+
+      <div class="process-content">
+
+        <h3>
+          Launch
+        </h3>
+
+        <p>
+          We test, refine and launch your new
+          digital experience into the world.
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- =================================================
+     CONTACT CTA
+================================================== -->
+
+<section
+  class="contact-section"
+  id="contact"
+>
+
+  <div class="contact-top">
+
+    <span>
+      Have a project?
+    </span>
+
+    <span>
+      Let's talk.
+    </span>
+
+  </div>
+
+
+  <div class="contact-main">
+
+    <h2>
+      LET'S MAKE
+      <br>
+      SOMETHING
+      <br>
+      <span>GREAT.</span>
+    </h2>
+
+
+    <div class="contact-action">
+
+      <p>
+        Have an idea, a business or a problem
+        that needs a digital solution?
+      </p>
+
+      <a
+        href="mailto:ntuthukodaliwonga@gmail.com"
+        class="contact-button"
+      >
+
+        <span>
+          Start a conversation
+        </span>
+
+        <span>
+          ↗
+        </span>
+
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+</main> <!-- ===================================================== FOOTER ====================================================== --> <footer class="site-footer">
+<div class="footer-main">
+
+
+  <div class="footer-brand">
+
+    <a
+      href="index.html"
+      class="footer-logo"
+    >
+      CREDHIVE
+    </a>
+
+    <p>
+      Independent digital
+      development studio.
+    </p>
+
+  </div>
+
+
+  <div class="footer-columns">
+
+
+    <div class="footer-column">
+
+      <span class="footer-label">
+        Navigate
+      </span>
+
+      <a href="#work">
+        Work
+      </a>
+
+      <a href="services.html">
+        Services
+      </a>
+
+      <a href="about.html">
+        About
+      </a>
+
+      <a href="process.html">
+        Process
+      </a>
+
+    </div>
+
+
+    <div class="footer-column">
+
+      <span class="footer-label">
+        Connect
+      </span>
+
+      <a href="#">
+        Instagram
+      </a>
+
+      <a href="#">
+        Behance
+      </a>
+
+      <a href="#">
+        LinkedIn
+      </a>
+
+    </div>
+
+
+    <div class="footer-column">
+
+      <span class="footer-label">
+        Contact
+      </span>
+
+      <a href="mailto:ntuthukodaliwonga@gmail.com">
+        Email us
+      </a>
+
+      <span>
+        Johannesburg
+      </span>
+
+      <span>
+        South Africa
+      </span>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<div class="footer-bottom">
+
+  <span>
+    © 2026 CREDHIVE® Studio
+  </span>
+
+  <span>
+    Designed & developed with intention.
+  </span>
+
+</div>
+
+</footer>
+<!-- Main JavaScript --> 
+ <script src="script.js"></script> 
+</body> 
 </html>

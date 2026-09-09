@@ -1,24 +1,46 @@
-<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8" /> <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <title>CREDHIVE® — About</title> <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" > <link rel="stylesheet" href="style.css"> </head> <body> <!-- ========================= NAVIGATION ========================== --> <nav class="navbar">
+<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>CREDHIVE® — About</title>
+<meta
+name="description"
+content="Learn about CREDHIVE, a digital development studio creating modern websites, digital products and business systems."
+>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" > <link rel="stylesheet" href="style.css"> 
+</head>
+<body> 
+<!-- ========================= NAVIGATION ========================== --> 
+<nav class="navbar">
 <div class="nav-group nav-left">
+
   <a href="work.html">Work</a>
-  <a href="index.html#services">Services</a>
+
+  <a href="services.html">Services</a>
+
 </div>
 
-<a href="index.html" class="logo">
-  CREDHIVE<br>
+
+<a href="index.html" class="logo" aria-label="CREDHIVE Studio Home">
+  CREDHIVE
   <span>STUDIO</span>
 </a>
 
+
 <div class="nav-group nav-right">
-  <a href="about.html">About</a>
-  <a href="index.html#process">Process</a>
+
+  <a href="about.html" class="active">About</a>
+
+  <a href="process.html">Process</a>
+
 </div>
+
 
 <button
   class="menu"
   id="menu"
-  aria-label="Open menu"
   type="button"
+  aria-label="Open menu"
+  aria-expanded="false"
 >
   ☰
 </button>
@@ -34,36 +56,51 @@
       MENU
     </div>
 
-    <a href="work.html">
-      Work <span></span>
+    <a href="index.html">
+      Home
+      <span>↗</span>
     </a>
 
-    <a href="index.html#services">
-      Services <span></span>
+    <a href="work.html">
+      Work
+      <span>↗</span>
+    </a>
+
+    <a href="services.html">
+      Services
+      <span>↗</span>
     </a>
 
     <a href="about.html">
-      About <span></span>
+      About
+      <span>↗</span>
     </a>
 
-    <a href="index.html#process">
-      Process <span></span>
+    <a href="process.html">
+      Process
+      <span>↗</span>
     </a>
 
     <a href="index.html#contact">
-      Contact <span></span>
+      Contact
+      <span>↗</span>
     </a>
 
   </div>
 
 </div>
 
-</nav> <!-- ========================= ABOUT HERO ========================== --> <main>
+</nav> <main>
+<!-- =========================
+     ABOUT HERO
+========================== -->
+
 <section class="about-page-hero">
 
   <div class="about-page-eyebrow">
-    About CredHive / Digital Development Studio
+    About CREDHIVE / Digital Development Studio
   </div>
+
 
   <h1 class="about-page-title">
     We build digital
@@ -75,18 +112,23 @@
     move forward.
   </h1>
 
+
   <div class="about-page-hero-bottom">
 
     <p>
-      CredHive is a digital development studio focused on
+      CREDHIVE is a digital development studio focused on
       creating modern websites, custom management systems,
       and digital solutions designed around how businesses
       actually work.
     </p>
 
-    <a href="index.html#contact" class="about-page-button">
+
+    <a
+      href="index.html#contact"
+      class="about-page-button"
+    >
       Let's Work Together
-      <span>→</span>
+      <span>↗</span>
     </a>
 
   </div>
@@ -101,8 +143,9 @@
 <section class="about-page-section about-who">
 
   <div class="about-page-label">
-    Who We Are
+    01 / Who We Are
   </div>
+
 
   <div class="about-who-content">
 
@@ -112,10 +155,11 @@
       websites.
     </h2>
 
+
     <div class="about-who-text">
 
       <p>
-        CredHive is a growing digital development agency
+        CREDHIVE is a growing digital development agency
         focused on helping businesses establish a strong
         presence online and improve the way they operate
         through technology.
@@ -124,7 +168,7 @@
       <p>
         From business websites and e-commerce platforms
         to custom management systems, we combine design,
-        development, and practical problem-solving to create
+        development and practical problem-solving to create
         digital products that are built with purpose.
       </p>
 
@@ -142,8 +186,9 @@
 <section class="about-services">
 
   <div class="about-page-label">
-    What We Do
+    02 / What We Do
   </div>
+
 
   <div class="about-services-heading">
 
@@ -158,16 +203,15 @@
 
   <div class="about-service-grid">
 
-    <!-- CARD 01 -->
 
     <article class="about-service-card">
 
       <div class="about-service-number">
-        
+        01
       </div>
 
       <div class="about-service-icon">
-        
+        ↗
       </div>
 
       <h3>
@@ -176,26 +220,24 @@
 
       <p>
         Modern, responsive websites built around your
-        business and your customers.
+        business, your customers and your goals.
       </p>
 
     </article>
 
 
-    <!-- CARD 02 -->
-
     <article class="about-service-card">
 
       <div class="about-service-number">
-        
+        02
       </div>
 
       <div class="about-service-icon">
-        
+        ↗
       </div>
 
       <h3>
-        UI/UX & Design
+        UI / UX Design
       </h3>
 
       <p>
@@ -206,16 +248,14 @@
     </article>
 
 
-    <!-- CARD 03 -->
-
     <article class="about-service-card">
 
       <div class="about-service-number">
-        
+        03
       </div>
 
       <div class="about-service-icon">
-        
+        ↗
       </div>
 
       <h3>
@@ -223,27 +263,25 @@
       </h3>
 
       <p>
-        Search-focused optimization that helps your website
-        become more discoverable online.
+        Search-focused optimization that helps your
+        website become more discoverable online.
       </p>
 
     </article>
 
 
-    <!-- CARD 04 -->
-
     <article class="about-service-card">
 
       <div class="about-service-number">
-        
+        04
       </div>
 
       <div class="about-service-icon">
-        
+        ↗
       </div>
 
       <h3>
-        Custom Management Systems
+        Custom Systems
       </h3>
 
       <p>
@@ -266,8 +304,9 @@
 <section class="about-philosophy">
 
   <div class="about-page-label">
-    Our Philosophy
+    03 / Our Philosophy
   </div>
+
 
   <div class="about-philosophy-content">
 
@@ -277,11 +316,13 @@
       <span>We understand first.</span>
     </h2>
 
+
     <p>
       Every business has different goals, challenges and
-      ways of working. That's why we don't believe in simply
-      handing every client the same template.
+      ways of working. That's why we don't believe in
+      simply handing every client the same template.
     </p>
+
 
     <p>
       We take the time to understand the problem, plan the
@@ -292,9 +333,8 @@
   </div>
 
 
-  <!-- PRINCIPLES -->
-
   <div class="about-principles">
+
 
     <div class="about-principle">
 
@@ -321,7 +361,7 @@
       </h3>
 
       <p>
-        Turn the strategy into a practical, thoughtful
+        Turn strategy into a practical, thoughtful
         digital solution.
       </p>
 
@@ -355,8 +395,9 @@
 <section class="about-why">
 
   <div class="about-page-label">
-    04 / Why CredHive
+    04 / Why CREDHIVE
   </div>
+
 
   <h2>
     Built with purpose.
@@ -367,10 +408,11 @@
 
   <div class="about-why-list">
 
+
     <article class="about-why-item">
 
       <span class="about-why-number">
-        
+        01
       </span>
 
       <div>
@@ -392,7 +434,7 @@
     <article class="about-why-item">
 
       <span class="about-why-number">
-        
+        02
       </span>
 
       <div>
@@ -415,7 +457,7 @@
     <article class="about-why-item">
 
       <span class="about-why-number">
-        
+        03
       </span>
 
       <div>
@@ -440,43 +482,44 @@
 
 
 <!-- =========================
-     YOUR STORY
+     STORY
 ========================== -->
 
 <section class="about-story">
 
   <div class="about-page-label">
-    The Story
+    05 / The Story
   </div>
+
 
   <div class="about-story-grid">
 
     <h2>
-      Building CredHive
+      Building CREDHIVE
       <br>
       from the ground up.
     </h2>
 
+
     <div class="about-story-text">
 
       <p>
-        CredHive started with a simple idea: technology
-        should be useful, accessible and built around the
-        people who use it.
+        CREDHIVE started with a simple idea:
+        technology should be useful, accessible
+        and built around the people who use it.
       </p>
 
       <p>
-        What began as a passion for web development and
-        design is growing into a digital agency focused
-        on helping businesses build better online
-        experiences and systems.
+        What began as a passion for web development
+        and design is growing into a digital agency
+        focused on helping businesses build better
+        online experiences and systems.
       </p>
 
       <p>
-        I'm currently building CredHive one project at
-        a time — developing my skills, working with
-        businesses, and creating solutions that have
-        real-world value.
+        We're building CREDHIVE one project at a time —
+        developing our skills, working with businesses,
+        and creating solutions that have real-world value.
       </p>
 
     </div>
@@ -493,8 +536,9 @@
 <section class="about-tech">
 
   <div class="about-page-label">
-    Tools We Work With
+    06 / Technology
   </div>
+
 
   <h2>
     Built with modern
@@ -505,12 +549,16 @@
 
   <div class="about-tech-list">
 
-    <span>TypeScript</span>
-    <span>Next.js</span>
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
     <span>React</span>
-    <span>Tailwind CSS</span>
-    <span>PostgreSQL</span>
+    <span>Next.js</span>
+    <span>TypeScript</span>
     <span>Python</span>
+    <span>Django</span>
+    <span>PostgreSQL</span>
+    
 
   </div>
 
@@ -527,6 +575,7 @@
     Have an idea?
   </div>
 
+
   <h2>
     HAVE A PROBLEM?
     <br>
@@ -535,27 +584,32 @@
     THE SOLUTION.
   </h2>
 
+
   <p>
     Have an idea, a problem, or a business that needs
     a better digital solution?
   </p>
+
 
   <a
     href="index.html#contact"
     class="about-final-button"
   >
     Start a Project
-    <span>→</span>
+    <span>↗</span>
   </a>
 
 </section>
 
-</main> <!-- ========================= FOOTER ========================== --> <footer>
-<div class="footer-top">
+</main>
+<!-- ========================= FOOTER ========================== --> 
+<footer>
+  <div class="footer-top">
 
   <div class="footer-logo">
-    CREDHIVE®
+    CREDHIVE
   </div>
+
 
   <div class="footer-links">
 
@@ -600,7 +654,7 @@
 <div class="footer-bottom">
 
   <span>
-    © 2026 CredHive Studio
+    © 2026 CREDHIVE Studio
   </span>
 
   <span>
@@ -609,4 +663,7 @@
 
 </div>
 
-</footer> <script src="script.js"></script> </body> </html>
+</footer> 
+<script src="script.js"></script> 
+</body> 
+</html>
