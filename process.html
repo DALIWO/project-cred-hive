@@ -9,111 +9,51 @@ content="Discover how CredHive turns ideas into digital solutions through a clea
 <link rel="stylesheet" href="style.css"> 
 </head> 
 <body> 
-    <!-- ===================================================== NAVIGATION ====================================================== --> <nav class="navbar">
-<div class="nav-group nav-left">
-
-  <a href="index.html">
-    Home
-  </a>
-
-  <a href="work.html">
-    Work
-  </a>
-
-</div>
-
-
-<a href="index.html" class="logo">
-
-  CREDHIVE®
-  <br>
-
-  <span>
-    STUDIO
-  </span>
-
-</a>
-
-
-<div class="nav-group nav-right">
-
-  <a href="services.html">
-    Services
-  </a>
-
-  <a href="about.html">
-    About
-  </a>
-
-</div>
-
-
-<!-- MOBILE BUTTON -->
-
-<button
-  class="menu"
-  id="menu"
-  aria-label="Open menu"
-  type="button"
->
-  ☰
-</button>
-
-
-<!-- MOBILE MENU -->
-
-<div
-  class="mobile-menu"
-  id="navLinks"
->
-
-  <div class="mobile-menu-inner">
-
-    <div class="mobile-label">
-      MENU
+    <!-- ========================= NAVIGATION ========================== -->
+<header class="site-header">
+  <nav class="navbar">
+    <div class="nav-group nav-left">
+      <a href="work.html">Work</a>
+      <a href="services.html">Services</a>
     </div>
 
-
-    <a href="index.html">
-      Home
-      <span>↗</span>
+    <a href="index.html" class="logo" aria-label="CREDHIVE Studio Home">
+      CREDHIVE
+      <span>STUDIO</span>
     </a>
 
+    <div class="nav-group nav-right">
+      <a href="about.html">About</a>
+      <a href="process.html" class="active">Process</a>
+      <a href="contact.html">Contact</a>
+    </div>
 
-    <a href="work.html">
-      Work
-      <span>↗</span>
-    </a>
+    <button class="menu" id="menu" type="button" aria-label="Open menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
 
+  <div class="mobile-menu" id="navLinks" aria-hidden="true">
+    <div class="mobile-menu-inner">
+      <div class="mobile-label">Navigation</div>
 
-    <a href="services.html">
-      Services
-      <span>↗</span>
-    </a>
+      <div class="mobile-links">
+        <a href="index.html"><span>Home</span></a>
+        <a href="work.html"><span>Work</span></a>
+        <a href="services.html"><span>Services</span></a>
+        <a href="about.html"><span>About</span></a>
+        <a href="process.html"><span>Process</span></a>
+        <a href="contact.html"><span>Contact</span></a>
+      </div>
 
-
-    <a href="about.html">
-      About
-      <span>↗</span>
-    </a>
-
-
-    <a href="process.html">
-      Process
-      <span>↗</span>
-    </a>
-
-
-    <a href="index.html#contact">
-      Contact
-      <span>↗</span>
-    </a>
-
+      <div class="mobile-footer">
+        <span>CREDHIVE® STUDIO</span>
+        <span>Digital Development</span>
+      </div>
+    </div>
   </div>
-
-</div>
-
-</nav> <!-- ===================================================== MAIN ====================================================== --> <main>
+</header> <!-- ===================================================== MAIN ====================================================== --> <main>
 <!-- ===================================================
      PROCESS HERO
 ==================================================== -->
@@ -802,82 +742,43 @@ content="Discover how CredHive turns ideas into digital solutions through a clea
 
 </section>
 
-</main> <!-- ===================================================== FOOTER ====================================================== --> <footer>
-<div class="footer-top">
-
-
-  <div class="footer-logo">
-    CREDHIVE®
-  </div>
-
-
-  <div class="footer-links">
-
-
-    <div>
-
-      <span>
-        Navigate
-      </span>
-
-      <a href="index.html">
-        Home
-      </a>
-
-      <a href="work.html">
-        Work
-      </a>
-
-      <a href="services.html">
-        Services
-      </a>
-
-      <a href="process.html">
-        Process
-      </a>
-
-      <a href="about.html">
-        About
-      </a>
-
+</main>
+<footer class="site-footer">
+  <div class="site-footer-inner">
+    <div class="footer-brand">
+      <a href="index.html" class="footer-logo">CREDHIVE</a>
+      <p>Independent digital development studio.</p>
     </div>
 
+    <div class="footer-columns">
+      <div class="footer-column">
+        <span class="footer-title">Navigation</span>
+        <a href="work.html">Work</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+        <a href="process.html">Process</a>
+        <a href="contact.html">Contact</a>
+      </div>
 
-    <div>
+      <div class="footer-column">
+        <span class="footer-title">Connect</span>
+        <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="https://www.instagram.com" target="_blank" rel="noreferrer">Instagram</a>
+        <a href="mailto:hello@credhive.co.za">Email</a>
+      </div>
 
-      <span>
-        Contact
-      </span>
-
-      <a href="mailto:ntuthukodaliwonga@gmail.com">
-        ntuthukodaliwonga@gmail.com
-      </a>
-
-      <a href="#">
-        Johannesburg
-      </a>
-
+      <div class="footer-column">
+        <span class="footer-title">Contact</span>
+        <a href="mailto:hello@credhive.co.za">hello@credhive.co.za</a>
+        <span>South Africa / Worldwide</span>
+      </div>
     </div>
-
-
   </div>
 
-</div>
-
-
-<div class="footer-bottom">
-
-  <span>
-    © 2026 CredHive Studio
-  </span>
-
-  <span>
-    Designed with intention.
-  </span>
-
-</div>
-
-</footer> 
-<script src="script.js"></script> 
+  <div class="footer-bottom">
+    <span>© CREDHIVE</span>
+    <span>All rights reserved</span>
+  </div>
+</footer><script src="script.js"></script> 
 </body> 
 </html>
