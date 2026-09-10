@@ -468,6 +468,11 @@ p {
     height: 75px;
     padding: 0 5vw;
 
+
+
+  .navbar.nav-hidden {
+    transform: translateY(0);
+  }
     justify-content: center;
     z-index: 1003;
   }
@@ -1149,6 +1154,7 @@ section {
   letter-spacing: -5px;
   max-width: 620px;
   margin-bottom: 0;
+  text-align: center;
 }
 
 
@@ -1215,6 +1221,7 @@ section {
   color: var(--muted);
   font-size: 15px;
   line-height: 1.75;
+  text-align: center;
 }
 
 
@@ -2097,6 +2104,7 @@ section {
   line-height: .94;
 
   letter-spacing: -3px;
+  text-align: center;
 }
 
 
@@ -2104,12 +2112,15 @@ section {
   max-width: 430px;
 
   margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
 
   color: var(--muted);
 
   font-size: 14px;
 
   line-height: 1.6;
+  text-align: center;
 }
 
 
@@ -2242,6 +2253,9 @@ section {
   font-size: 14px;
 
   line-height: 1.6;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 
@@ -2270,6 +2284,7 @@ section {
   line-height: .82;
 
   letter-spacing: -7px;
+  text-align: center;
 }
 
 
@@ -2319,6 +2334,9 @@ section {
   font-size: 15px;
 
   line-height: 1.7;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 
@@ -2478,11 +2496,16 @@ section {
   font-size: 17px;
 
   line-height: 1.6;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 
 .about-final-button {
-  margin-top: 35px;
+  display: flex;
+  width: fit-content;
+  margin: 35px auto 0;
 }
 
 
@@ -3503,6 +3526,7 @@ section {
   color: var(--muted);
   font-size: 14px;
   line-height: 1.7;
+  text-align: center;
 }
 
 
@@ -3605,6 +3629,11 @@ section {
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 1.7px;
+}
+
+
+.contact-next .contact-label {
+  color: var(--black);
 }
 
 
@@ -4019,6 +4048,7 @@ section {
   font-size: clamp(26px, 2.8vw, 38px);
   line-height: 1;
   letter-spacing: -1px;
+  text-align: center;
 }
 
 
@@ -4028,6 +4058,9 @@ section {
   color: rgba(11,11,11,0.68);
   font-size: 14px;
   line-height: 1.7;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 
@@ -4046,6 +4079,7 @@ section {
   font-size: clamp(42px, 6vw, 92px);
   line-height: .84;
   letter-spacing: -5px;
+  text-align: left;
 }
 
 
@@ -6295,6 +6329,17 @@ section {
 }
 
 
+.studio-content p,
+.studio-content a.text-link.dark-link {
+  text-align: center;
+}
+
+
+.studio-content a.text-link.dark-link {
+  justify-content: center;
+}
+
+
 .studio-copy p {
   max-width: 500px;
   margin-left: auto;
@@ -6409,5 +6454,48 @@ section {
   .process-final-label {
     letter-spacing: 1.2px;
     font-size: 10px;
+  }
+
+
+  .work-project-header {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+
+  .work-project-title,
+  .work-project-type {
+    grid-column: auto;
+    text-align: left;
+  }
+
+
+  .work-project-type {
+    margin-top: 0;
+    padding-bottom: 0;
+  }
+
+
+  .services-intro-content,
+  .service-detail-grid,
+  .process-step-grid {
+    grid-template-columns: 1fr;
+  }
+
+
+  .services-intro-text,
+  .service-detail-content,
+  .process-step-content {
+    max-width: 100%;
+  }
+
+
+  .service-detail-content h3 {
+    font-size: clamp(30px, 8vw, 52px);
+  }
+
+
+  .service-options {
+    grid-template-columns: 1fr;
   }
 }
