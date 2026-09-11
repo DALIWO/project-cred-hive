@@ -571,6 +571,41 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
   /* =======================================================
+     PROJECT IMAGE SCROLL COLOR
+  ======================================================= */
+
+  const scrollColorTargets = document.querySelectorAll(
+    ".project-image, .work-project-image"
+  );
+
+  if (scrollColorTargets.length) {
+
+    const imageColorObserver = new IntersectionObserver(
+      entries => {
+
+        entries.forEach(entry => {
+
+          if (!entry.isIntersecting) return;
+
+          entry.target.classList.add("is-in-view");
+          imageColorObserver.unobserve(entry.target);
+
+        });
+
+      },
+      {
+        threshold: 0.35
+      }
+    );
+
+    scrollColorTargets.forEach(target => {
+      imageColorObserver.observe(target);
+    });
+
+  }
+
+
+  /* =======================================================
      TILT EFFECT FOR CARDS
   ======================================================= */
 
